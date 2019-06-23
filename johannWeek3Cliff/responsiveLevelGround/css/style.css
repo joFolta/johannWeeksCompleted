@@ -1,0 +1,210 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font: 10px;
+}
+body{
+  font-family: "Oswald",sans-serif;
+}
+header{
+  height: 550px;
+
+  background-color: #679;
+  color: white;
+  float: left;
+}
+header ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.headerLt{
+  padding: 20px 0 0 4%;
+  width: 30%;
+  float: left;
+}
+.headerLt li{
+  display: inline;
+  margin: 0 11% 0 0;
+}
+header img{
+  width: 5%;
+  margin: 5px 15% 0 18%;
+  float: left;
+}
+header .donate{
+  padding: 20px 0 0 4%;
+  margin-left: 18%;
+  float: left;
+}
+.mobileMenu.fas.fa-bars{
+  display: none;
+}
+h1{
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 138px auto 0 auto;
+  text-align: center;
+}
+header p{
+  width: 79%;
+  margin: 25px auto 0 auto;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+}
+header .watchVideo{
+  height: 40px;
+  width: 30%;
+  display: block;
+  margin: 30px auto 0 auto;
+  text-align: center;
+
+}
+.secWhyAndVol{
+  height: 400px;
+  float: left;
+
+}
+.secWhyAndVol h2{
+  text-align: center;
+  margin: 90px auto 8px auto;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.secWhyAndVol p{
+  width: 44%;
+  margin: 0px auto 0 auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+}
+.secVisit{
+  height: 600px;
+  /* border: 1px solid black; */
+}
+.secVisitHalf{
+  height: 600px;
+  width: 50%;
+  float: left;
+  background-color: rgb(219,223,226)
+}
+.secVisitHalfInner{
+  width: 80%;
+  margin: 0px auto 0 auto;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+}
+.secVisitHalfInner.left{
+  margin-right: 1.5%;
+}
+.secVisitHalfInner.right{
+  margin-left: 1.5%;
+
+}
+.grayBlock{
+  height: 170px;
+  width: 70%;
+  background-color: #679;
+  margin: 100px auto 0 auto;
+}
+.secVisit h3{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.secVisit span, .secWhyAndVol span{
+  font-size: .8rem;
+  font-weight: 500;
+  padding: 8px 8%;
+  border: 1px solid gray;
+}
+
+/* VOLUNTEER SECTION */
+.secWhyAndVol span{
+  display: block;
+  margin: 10px auto 0 auto;
+  text-align: center;
+  width: 30%;
+}
+footer{
+  height: 300px;
+  background-color: rgb(22,31,41);
+  color: white;
+  clear: both;
+}
+footer li{
+  display: inline;
+}
+.footerLeft{
+  margin: 0 60% 0 8%;
+  float: left;
+}
+.footerLeft ul{
+  padding: 0;
+
+}
+.footerRight{
+  width: 12%;
+  margin: 0 10% 0 0;
+  float: left;
+}
+.footerBottom{
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid white;
+  float: left;
+}
+.footerBottom p{
+  font-size: .8rem;
+  margin: 10px 0% 0 3%;
+  float: left;
+}
+.footerBottom img{
+  width: 4%;
+  margin-right: 3%;
+  float: right;
+}
+
+@media only screen and (max-width: 739px){
+  .mobileMenu.fas.fa-bars{
+    display: block;
+    font-size: 30px;
+    margin: 10px 2% 0 0;
+    float: right;
+  }
+.donate, .headerLt{
+    display: none;
+  }
+header img{
+    display: block;
+    margin: 5px 15% 0 1%;
+    width: 10%;
+  }
+  h1{
+    font-size: 2rem;
+    margin-top: 82px;
+  }
+  .secWhyAndVol h2{
+    margin-top: 18px;
+  }
+  .secWhyAndVol p{
+    font-size: 1.1rem;
+    width: 69%;
+  }
+  .secVisitHalf{
+    width: 100%;
+  }
+.secVisitHalfInner.left, .secVisitHalfInner.right{
+  height: 600px;
+  width: 100%;
+  }
+.secVisitHalfInner.right {
+    margin-left: 0;
+}
+
+
+@media (min-width: 740px) and (max-width: 980px){
+
+}

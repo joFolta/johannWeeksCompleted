@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  height: 90px;
+  background-color: teal;
+  border: 1px solid black;
+}
+      .us,.twitter{
+        height: 60px;
+        width: 15%;
+        border: 1px solid black;
+        float: left;
+        padding: 20px 0 0 5%;
+        color: white;
+      }
+      h2 {
+        height: 60px;
+        width: 70%;
+        border: 1px solid black;
+        float: left;
+        margin: 0;
+        color: white;
+        padding: 15px 0 0 24%;
+      }
+      nav{
+        background-color: white;
+        height: 30px;
+        width: 100%;
+        border: 1px solid black;
+        float: left;
+      }
+      nav ul{
+        margin:0;
+      }
+      nav li{
+        height: 10px;
+        width: 5%;
+        float: left;
+        margin: 0 0 0 4%;
+      }
+
+/* MAIN SECTION PAGE 1 */
+.mainPageOne{
+  height: 470px;
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+}
+      h1{
+        height: 150px;
+        width: 74%;
+        float: left;
+        margin: 0;
+        padding: 15px 0 0 23%;
+        font-size: 55px;
+      }
+      .threeImages{
+        height: 320px;
+        width: 100%;
+        border: 1px solid black;
+        float: left;
+      }
+            h1+section img{
+              height: 240px;
+              width:  17%;
+              border: 1px solid black;
+              float: left;
+            }
+            h1+section img:first-of-type{
+              margin-left: 25%;
+            }
+            h1+section img:nth-of-type(2){
+              margin: 0px .2%;
+            }
+.mainPageTwo{
+  height: 490px;
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+}
+      li{
+        height: 220px;
+        width: 20%;
+        border: 1px solid black;
+        float: left;
+        margin: 10px .4% 0px 3%;
+        list-style: none;
+      }
+      li img{
+        height: 180px;
+        width: 100%;
+      }
+      h4{
+        font-size: 14px;
+        margin: 0;
+      }

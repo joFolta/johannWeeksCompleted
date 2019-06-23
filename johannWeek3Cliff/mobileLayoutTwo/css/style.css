@@ -1,0 +1,54 @@
+
+*{
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+nav{
+  border-style: none;
+}
+header,footer{
+  height: 100px;
+  clear:left;
+}
+ul{
+  list-style: none;
+  border-style: none;
+}
+li{
+  height: 50px;
+  width: 8%;
+  float: left;
+  margin-right: 4%;
+}
+header+section{
+  width: 75%;
+}
+aside{
+  height: 200px;
+  width: 25%;
+  float: left;
+}
+section{
+  height: 200px;
+  width: 33.3333%;
+  float: left;
+}
+@media (min-width: 500px) and (max-width:770px) {
+  aside{
+    display: none;
+  }
+  section,header+section{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px){
+  aside{
+    display: none;
+  }
+  nav{
+    display: none;
+  }
+  section,header+section{
+    width: 100%;
+  }
+}

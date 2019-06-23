@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+.zebra{
+  height: 200px;
+  width: 33.3333%;
+  border: 2px solid black;
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .zebra{
+    width: 100%;
+    background: purple;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 960px){
+  section{
+    background: gold;
+  }
+}

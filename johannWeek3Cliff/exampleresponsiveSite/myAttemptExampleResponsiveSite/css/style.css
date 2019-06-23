@@ -1,0 +1,10 @@
+*{
+  border-sizing: border-box;
+}
+
+section{
+  height: 200px;
+  width: 33.3333%;
+  border: 2px solid black;
+  float:left;
+}

@@ -1,0 +1,264 @@
+/* 1ST USE HEIGHTS TO SET LAYOUT.
+THEN, REMOVE HEIGHTS AND USE CONTENTS AND THEIR MARGINS/PADDING TO KEEP THE SAME LAYOUT. USE CLEARFIX
+ */
+
+/* REMOVE HEIGHTS, USE PADDING PX IF NEEDED */
+
+*{
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+html{
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.LtHalf{
+  width: 60%;
+  float: left;
+}
+.mainStory{
+  width: 100%;
+  margin: 0 0 8px 0;
+  float: left;
+  background-color: yellow;
+  background: url(../photos/trump.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.mainStoryHalf{
+  width: 35%;
+  float: left;
+}
+.right{
+  margin-left: 30%;
+  color: white;
+}
+.right h4{
+  width: 54%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.right li{
+  font-size: 1.4rem;
+  margin: 8% auto;
+  display: block;
+}
+.mainStory h2{
+  color: white;
+  width: 90%;
+  font-size: 2.7rem;
+  margin: 55px auto 0 auto;
+  text-align: center;
+}
+.mainStory p{
+  color: yellow;
+  width: 60%;
+  margin: 10px auto;
+  font-size: 1.3rem;
+  text-align: center;
+  display: block;
+}
+.mainStory span{
+  color: white;
+  display: block;
+  margin: 10px auto 0 auto;
+  text-align: center;
+
+}
+.secondStory{
+  width: 25%;
+  text-align: center;
+  border: 1px solid lightgray;
+  float: left;
+}
+.secondStory img{
+      width: 80%;
+}
+
+h3{
+  width: 80%;
+  font-size: 2rem;
+  margin: 5% auto;
+}
+.thirdAndFourthStories{
+  width: 50%;
+  float: left;
+  margin: 0 0 8px 25%;
+  border: 1px solid lightgray;
+}
+.fourth{
+  background-color: #603;
+  color: white;
+}
+.thirdAndFourthStories span{
+  margin: 0 0 0 10%;
+}
+.fifthStory{
+  width: 100%;
+  float: left;
+  border: 1px solid lightgray;
+}
+.fifthStory img{
+  margin: 5px 0 0 5px;
+  float: left;
+}
+.fifthStory h4{
+  font-size: 1.6rem;
+  width: 70%;
+  float: left;
+  margin: 5px 0 0 3px;
+}
+.fifthStory section{
+  width: 20%;
+  float: right;
+  background-color: #314;
+  color: white;
+}
+.fifthStory h5{
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 5px 1% 0 1%;
+}
+.RtHalf{
+  width: 39.3%;
+  float: left;
+  margin: 0 0 0 0.7%;
+}
+header{
+  width: 100%;
+  margin: 0 0 0 0%;
+  background-color: #603;
+  color: white;
+  float: left;
+}
+h1{
+  width: 75%;
+  font-size: 6rem;
+  margin: 0;
+  padding-left: 2%;
+  display: inline-block;
+  float: left;
+
+}
+header nav{
+  float: left;
+  font-size: 1.8rem;
+  padding: 6px;
+}
+header ul{
+  float: left;
+  padding: 0;
+}
+header li{
+  display: inline;
+}
+.mostRecentHeader{
+  height: 40px;
+  width: 100%;
+  margin: 0 0 8px 0%;
+  color: white;
+  background-color: #322;
+  float: left;
+  padding: 15px;
+}
+.mostRecentHeader span{
+  float: right;
+  color: yellow;
+}
+
+.list{
+  width: 100%;
+  margin: 0 0 0 0%;
+  float: left;
+}
+.list ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.list ul > li{
+  padding-left: 3%;
+  border: 1px solid lightgray;
+  border-top: none;
+}
+.list span{
+  color:gray;
+}
+.list h4{
+  font-size: 1.5rem;
+}
+footer{
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
+footer h5{
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 3px 0;
+}
+footer span{
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  header{
+    position: fixed;
+    top: 0;
+    left: 2.2%;
+    width: 95.5%;
+  }
+    body{
+      margin-top: 70px;
+    }
+    .right{
+      display: none;
+    }
+    .LtHalf{
+      width: auto;
+    }
+    .mainStory{
+      width: 100%;
+    }
+    .secondStory{
+      width: auto;
+    }
+    .thirdAndFourthStories{
+      width: 100%;
+      margin-left: 0;
+    }
+    .RtHalf{
+      width: auto;
+    }
+    .secondStory h3{
+      float: left;
+      width: 40%;
+    }
+    .secondStory img{
+      width: 50%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+  header{
+    position: fixed;
+    top: 0;
+    left: 0.9%;
+    width: 98%;
+
+  }
+  body{
+    margin-top: 70px;
+  }
+}

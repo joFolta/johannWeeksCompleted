@@ -1,0 +1,205 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  float: left;
+}
+h1{
+  height: 40px;
+  width: 30%;
+  margin: 0;
+  float: left;
+}
+h1 img{
+  height: 40px;
+  width: 30%;
+  margin: 0 0 15px 35%;
+  float: left;
+}
+nav{
+  height: 40px;
+  width: 70%;
+  float: left;
+}
+nav a{
+  color: white;
+  margin: 12px 4% 0 0;
+  float: left;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+.LT{
+  height: 590px;
+  width: 65%;
+  margin: 0;
+  float: left;
+}
+      .h2container{
+        height: 110px;
+        width: 100%;
+        margin: 0;
+        float: left;
+      }
+            h2{
+              margin: 80px 0 0 0;
+            }
+      .LTBelowLine{
+        height: 480px;
+        width: 100%;
+        float: left;
+      }
+            .threePhotos{
+              height: 480px;
+              width: 65%;
+              float: left;
+            }
+                .topPhoto{
+                  height: 265px;
+                  width: 100%;
+                  float: left;
+                }
+                      .topPhoto img{
+                        height: 200px;
+                        width: 100%;
+                        float: left;
+                      }
+                      .topPhoto h3{
+                        height: 65px;
+                        width: 100%;
+                        float: left;
+                        margin: 0;
+                      }
+                .bottomPhoto{
+                  height: 215px;
+                  width: 50%;
+                  float: left;
+                }
+                    .bottomPhoto img{
+                      height: 170px;
+                      width: 100%;
+                      float: left;
+                    }
+                    .bottomPhoto h4{
+                      height: 40px;
+                    }
+            .LTList{
+              height: 480px;
+              width: 35%;
+              float: left;
+            }
+            h4{
+              height: 20px;
+              width: 100%;
+              margin: 0 0 0 0;
+              float: left;
+            }
+            ul{
+              list-style: none;
+            }
+.RT{
+  height: 590px;
+  width: 35%;
+  float: left;
+}
+      .adContainer{
+        height: 240px;
+        width: 100%;
+        float: left;
+      }
+            .ad{
+              height: 165px;
+              width: 60%;
+              float: left;
+              margin: 75px 0 0 20%;
+            }
+      .mostPopAndList{
+        height: 350px;
+        width: 100%;
+        float: left;
+      }
+            .mostPopAndList h2{
+              height: 40px;
+              width: 100%;
+              float: left;
+              margin: 0;
+            }
+            .list{
+              height: 270px;
+              width: 100%;
+              border-top: 1px solid black;
+              float: left;
+            }
+            .list h4{
+              margin: 0 0 22px 0;
+            }
+
+/* PAGE 2 */
+.pageTwo{
+  height: 360px;
+  width: 100%;
+  float: left;
+}
+      .grayBorderUpDownSec{
+        height: 338px;
+        width: 60%;
+        float: left;
+        margin-top: 20px;
+      }
+            .truckAndHeaderandSubt{
+              height: 338px;
+              width: 50%;
+              float: left;
+            }
+              h3{
+                height: 50px;
+                width: 100%;
+                float: left;
+                margin: 0;
+              }
+              .truck{
+                height: 208px;
+                width: 100%;
+                float: left;
+              }
+              .truck h4{
+                height: 80px;
+                width: 100%;
+                float: left;
+                margin: 0;
+              }
+
+            .listAutoNews{
+              height: 338px;
+              width: 50%;
+              float: left;
+            }
+            .listAutoNews li{
+              height: 50px;
+              width: 80%;
+              float: left;
+            }
+
+footer{
+  height: 130px;
+  width: 100%;
+  border-top: 1px solid black;
+  float: left;
+  clear: both;
+
+}
+      .icons{
+        height: 130px;
+        width: 70%;
+        float: left;
+      }
+      .copywrite{
+        height: 130px;
+        width: 30%;
+        float: left;
+      }

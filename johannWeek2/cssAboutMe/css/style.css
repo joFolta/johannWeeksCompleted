@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+body{
+  margin: 80px;
+  height: 600px;
+  border: 1px solid black;
+}
+      header{
+        height: 200px;
+        border: 1px solid black;
+        font-size: 26px;
+      }
+            .header,.rtTop{
+              height: 200px;
+              width: 25%;
+              border: 1px solid black;
+              margin: 0;
+              float: left;
+            }
+                  nav{
+                    height: 45px;
+                    width: 100%;
+                    border: 1px solid black;
+                    margin: 70px 0 0 0;
+                    float: left;
+                  }
+                  button{
+                    margin: 13px 0 0 7%;
+                    font-size: 16px;
+                  }
+                  h1{
+                    border: 1px solid black;
+                    margin: 70px 0 0 0;
+                  }
+            .topMid{
+              height: 200px;
+              width: 50%;
+              border: 1px solid black;
+              float: left;
+            }
+      .main{
+        height: 400px;
+        width: 100%;
+        border: 1px solid black;
+        float: left;
+      }
+            .mainLt{
+              height: 400px;
+              width: 75%;
+              border: 1px solid black;
+              float: left;
+            }
+                  .aboutMeSec{
+                    height: 200px;
+                    width: 100%;
+                    border: 1px solid black;
+                    float: left;
+                    margin: 0;
+                  }
+                  .messageExplore{
+                    height: 200px;
+                    width: 100%;
+                    border: 1px solid black;
+                    float: left;
+                  }
+                  img{
+                    height: 400px;
+                    width: 25%;
+                    border: 1px solid black;
+                    float: left;
+                  }

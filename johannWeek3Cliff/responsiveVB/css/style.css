@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+header{
+  height: 50px;
+  color: gray;
+  background-color: rgb(14,14,14);
+}
+header h2{
+  margin: 0 0 0 10%;
+  float: left;
+}
+h2 img{
+  max-height: 50%;
+  max-width: 50%;
+}
+nav{
+  margin: 0px 0 0 40%;
+  border: 1px solid black;
+}
+nav ul{
+  margin: 15px 0 0 0;
+}
+nav li{
+  font-size: 1.5rem;
+  padding-right: 5%;
+  display: inline;
+}
+.signUp{
+  margin-left: 30px;
+}
+.mainImgSection{
+  position: relative;
+}
+.mainImg{
+  width: 100%;
+  margin-top: -2px;
+}
+h1{
+  width: 38%;
+  background-color: lightgray;
+  font-size: 2rem;
+  position: absolute;
+  left: 9%;
+  bottom: 50px;
+  padding: 13px;
+}
+.minorSection{
+  float: left;
+}
+.minorSection ul{
+  margin-left: 10%;
+  float:left;
+  padding-left: 0px;
+}
+.minorSection li{
+  padding-bottom: 10px;
+  list-style-type: none;
+  float: left;
+  border-bottom: 1px solid lightgray;
+}
+.minorSection img{
+  width: 30%;
+  float: left;
+}
+.minorSection h2{
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 0 40% 8px 1.5%;
+  width: 25%;
+  float: left;
+}
+.minorSection span{
+  margin: 0 1% 0 1.5%;
+  color: lightblue;
+  float: left;
+}
+.minorSection ul li .date{
+  margin: 0;
+  color: lightgray;
+}
+.mobileMenu.fas.fa-bars{
+  display: none;
+}
+@media only screen and (max-width: 739px){
+  nav li{
+    display: none;
+  }
+  header h2{
+    margin-left: 0%;
+  }
+  .mobileMenu.fas.fa-bars{
+    display: block;
+    font-size: 30px;
+    margin: -5px 2% 0 0;
+    float: right;
+  }
+  h1{
+    font-size: 1.4rem;
+    left: 2%;
+    bottom: 25px;
+    padding: 2px;
+  }
+  .minorSection ul{
+  margin: 0;
+  }
+  .minorSection li{
+    width: 100%;
+  }
+  .minorSection img{
+    /* margin-left: -25%; */
+    width: 50%;
+    float: left;
+  }
+  .minorSection h2{
+    font-size: 1.5rem;
+    width: 40%;
+    margin: 15px 0 0 2%;
+  }
+  .minorSection span{
+    font-size: .8rem;
+    margin: 5px 1% 0 1.5%;
+  }
+  .minorSection ul li .date{
+    margin-left: 1.5%;
+  }
+}
+@media (min-width: 740px) and (max-width: 980px){
+  nav{
+    margin-left: 20%;
+  }
+}

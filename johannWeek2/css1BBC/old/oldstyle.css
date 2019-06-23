@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+/* borderbox for every element (*);
+border box makes Margin, Border, Padding total to the total WIDTH;
+less math needed */
+
+body{
+  color: white;
+  background-color: darkgray;
+  border: 2px solid black;
+  width: 68.6%;
+  font-family: Arial;
+}
+
+.container {
+    width: 10%;
+    height: 120px;
+}
+.container img {
+    width: 80%;
+    height: auto;
+}
+/* resize BBC logo indirectly by creating and resizing CONTAINER*/
+
+ul{
+  list-style: none;
+  /* remove bullet points */
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+  display: inline;
+}
+li{
+  float: left;
+
+
+
+
+
+
+  /* list left to right instead of top to down */
+}
+a{
+  text-decoration: none;
+  /* removes hyperlink underlines */
+  color: inherit;
+/* keeps color of hyperlink unchanging */
+}
+
+header a{
+  background-color: black;
+}
+
+
+
+
+
+input{
+  float: right;
+
+}
+/* search bar */
+
+ul{
+  display: inline;
+  float: left;
+}
+
+.date{
+  display: inline-inline-block;
+  float: right;
+}
+
+
+
+h3+section{
+  background-image: url(trumppoint.jpg);
+  background-size: contain;
+  /* scales image size */
+  width: 50%;
+  height: 180px;
+  padding-top: 40px;
+  /* positision text? */
+  color: green;
+  clear: both;
+
+}
+
+.trumpputin{
+  background-image: url(trumpputin.jpg);
+  background-size: contain;
+  /* scales image size */
+  width: 25%;
+  height: 90px;
+  padding-top: 40px;
+  /* positision text? */
+  float: left;
+}
+
+.tillerson{
+  background-image: url(tillerson.jpg);
+  background-size: contain;
+  /* scales image size */
+  width: 25%;
+  height: 90px;
+  padding-top: 40px;
+  /* positision text? */
+}
+
+
+
+h3 {
+  font-size: 16px;
+  margin: 0px;
+  float: left;
+}
+
+/* .mag{
+  font-size: 80px;
+} */

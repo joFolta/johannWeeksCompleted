@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+header {
+  height: 100px;
+  background-color: rgb(59,82,142);
+  color: white;
+}
+
+h1 {
+  height: 60px;
+  width: 10%;
+  margin: 35px 0 0 10%;
+  float: left;
+}
+
+form {
+  height: 60px;
+  width: 30%;
+  margin: 15px 0 0 40%;
+  float: left;
+}
+
+small {
+  height: 20px;
+  width: 30%;
+  margin: 0px 10% 0 0%;
+  float: left;
+}
+
+small input {
+  height: 20px;
+  width: 100%;
+  margin: 0px 0% 0 0%;
+  float: left;
+}
+
+small span {
+  height: 20px;
+  width: 100%;
+  margin: 0px 0% 0 0%;
+  float: left;
+}
+
+button {
+  height: 20px;
+  width: 5%;
+  margin: 32px 0% 0 0%;
+  float: left;
+}
+
+section {
+  height: 500px;
+  width: 45%;
+  margin: 32px 0% 0 5%;
+  float: left;
+}
+
+h2 {
+  height: 100px;
+  width: 62%;
+  margin: 20px 0% 0 12%;
+  float: left;
+}
+
+ul {
+  height: 250px;
+  width: 85%;
+  margin: 20px 0% 0 12%;
+  padding-left: 0;
+  float: left;
+  list-style: none;
+}
+
+li {
+  height: 50px;
+  width: 100%;
+  margin: 0px 0% 15px 0;
+  float: left;
+}
+
+i {
+  font-size: 40px;
+}
+
+.signUp{
+  height:35px;
+  float: left;
+}
+
+h2+span{
+  margin: 0px 50% 0 12%;
+  float: left;
+}
+
+span+form{
+  height: 225px;
+  width: 65%;
+  margin: 14px 0 0 12%;
+  float: left;
+
+}
+input{
+  height: 30px;
+  width: 40%;
+  margin: 0px 5% 0 0%;
+  float: left;
+}
+
+.long{
+  height: 30px;
+  width: 85%;
+  margin: 10px 5% 0 0%;
+  float: left;
+}
+form>span{
+  height: 30px;
+  width: 85%;
+  margin: 20px 5% 0 0%;
+  float: left;
+}
+.bday{
+  height: 30px;
+  width: 40%;
+}
+#woman,#man{
+  margin: 6px 0 0 0;
+  width: 7%;
+}
+label{
+  margin: 12px 3% 0 0;
+  float: left;
+}
+aside{
+  height: 60px;
+  width: 60%;
+  margin: 20px 5% 0 12%;
+  float: left;
+}
+.signUpButton{
+  height: 30px;
+  width: 30%;
+  margin: 12px 0% 0 12%;
+  float: left;
+}
+p{
+  height: 22px;
+  width: 60%;
+  margin: 20px 5% 0 12%;
+  float: left;
+}
