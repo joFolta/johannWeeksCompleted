@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+section{
+  height: 300px;
+  width: 30%;
+  background-color: blue;
+  float: left;
+  margin-left: 20px;
+  transition: border-radius 1s;
+  border-radius: 0%;
+
+}
+
+.box-rotate {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+
+.move-right{
+  position: absolute;
+  right: 20px;
+}
